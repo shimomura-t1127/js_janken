@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけんゲーム</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="title">じゃんけんゲーム</h1>
+    <!-- 自分の手を決める所 -->
+    <h2 class="zibun">あなたの手を選んでね</h2>
+    
+    <div class="sentaku">
+         <dl class="box">
+           <!-- <label><input type="radio" name="janken" id="0" onclick="guu()">グー</label> -->
+           <label><input type="radio" name="janken" id="aaa">グー</label>
+           <label><input type="radio" name="janken" id="bbb" >チョキ</label>
+           <label><input type="radio" name="janken" id="ccc" >パー</label>
+         </dl>
+         <p class="te_img"></p>
+    </div>
+    <!-- ポン -->
+    <h3 class="janken">じゃんけん<br>・<br>・<br>・</h3>
+    
+    <div class="button">
+        <button class="pon">ポン</button>
+    </div>
+
+    <!-- 勝負 -->
+    <div class="syoubu">
+        <dl class="zibun_te">
+            <p class="te_img"></p>
+            <p class="hidari">自分</p>
+        </dl>
+        <p class="vs">VS</p>
+        <dl class="aite_te">
+            <p class="aite_img"></p>
+            <p class="migi">相手</p>
+        </dl>
+    </div>
+
+    <!-- 結果 -->
+    <div class="result"></div>
+     
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

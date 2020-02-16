@@ -1,0 +1,84 @@
+.title{
+    font-size: 60px;
+    color: red;
+    margin: 10px auto;
+    font-weight: bold;
+    text-align: center;
+    background: orange;
+    padding: 10px;
+}
+.zibun{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* 自分の手を決める所 */
+label{
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    font-size: 25px;
+    margin-top: 15px ;
+}
+label input{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+.sentaku{
+    display: flex;
+    width: 400px;
+    margin: 10px auto;
+}
+
+/* ポン */
+.janken{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.pon{
+    font-size: 30px;
+    font-weight: bold;
+    color: orchid;
+}
+.button{
+    text-align: center;
+}
+/* 勝負結果 */
+.syoubu{
+    display: flex;
+    width: 1000px;
+    margin: 10px auto;
+    font-size: 50px;
+    text-align: center;
+}
+.zibun_te{
+    width: 450px;
+    text-align: center;
+}
+.hidari{
+    font-weight: bold;
+    font-size: 20px;
+}
+.migi{
+    font-size: 20px;
+    font-weight: bold;
+}
+.aite_te{
+    width: 450px;
+    text-align: center;
+}
+.vs{
+    padding-top: 250px;
+}
+
+/* 結果 */
+.result{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px auto;
+}
